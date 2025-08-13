@@ -28,3 +28,6 @@ dev = [
 
 [project.scripts]
 mcp-pandoc = "mcp_pandoc:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_pandoc"]
